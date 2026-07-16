@@ -766,7 +766,7 @@ img { max-width: 100%; display: block; }
 
 .service-img {
   position: relative;
-  height: 200px;
+  height: 180px;
   overflow: hidden;
 }
 
@@ -776,25 +776,25 @@ img { max-width: 100%; display: block; }
   object-fit: contain;
   transition: transform 0.6s ease;
   background: var(--bg-secondary);
-  padding: 10px;
+  padding: 6px;
 }
 
 .service-card:hover .service-img img {
-  transform: scale(1.08);
+  transform: scale(1.05);
 }
 
 .service-img-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(244, 63, 94, 0.3), transparent);
+  background: linear-gradient(to top, rgba(244, 63, 94, 0.25), transparent);
   display: flex;
   align-items: flex-end;
-  padding: 16px;
+  padding: 12px;
 }
 
 .service-icon {
-  width: 44px;
-  height: 44px;
+  width: 36px;
+  height: 36px;
   background: white;
   color: var(--accent-rose);
   display: flex;
@@ -805,36 +805,36 @@ img { max-width: 100%; display: block; }
 }
 
 .service-body {
-  padding: 22px 24px 26px;
+  padding: 16px 20px 20px;
 }
 
 .service-body h3 {
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   font-weight: 700;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   color: var(--text-primary);
 }
 
 .service-body p {
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   color: var(--text-secondary);
-  line-height: 1.7;
-  margin-bottom: 16px;
+  line-height: 1.5;
+  margin-bottom: 12px;
 }
 
 .service-details {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 4px;
 }
 
 .service-details li {
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   color: var(--text-muted);
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
 }
 
 .service-details li i {
