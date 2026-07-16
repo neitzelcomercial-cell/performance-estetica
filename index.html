@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Performance — Estética & Bem-Estar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="particles" id="particles"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <img src="logo2.jpeg" alt="Performance" class="nav-logo-img">
+        <span class="nav-brand-text">Performance</span>
+      </a>
+      <div class="nav-menu" id="navMenu">
+        <a href="#hero" class="nav-link active">Início</a>
+        <a href="#promo" class="nav-link">Promoções</a>
+        <a href="#services" class="nav-link">Serviços</a>
+        <a href="#team" class="nav-link">Profissional</a>
+        <a href="#gallery" class="nav-link">Galeria</a>
+        <a href="#contact" class="nav-link">Contato</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <div class="hero-bg-logo-wrapper">
+      <img src="pt1.jpeg" alt="" class="hero-bg-logo" id="heroBgLogo">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-logo-frame">
+        <img src="logo2.jpeg" alt="Performance" class="hero-logo">
+      </div>
+      <div class="hero-badge">
+        <i class="fas fa-spa"></i> Estética & Bem-Estar
+      </div>
+      <h1 class="hero-title">Performance</h1>
+      <p class="hero-subtitle">Sua beleza, nossa paixão. Cuidados estéticos personalizados para realçar sua melhor versão com excelência e carinho.</p>
+      <div class="hero-buttons">
+        <a href="https://wa.me/5511999999999" target="_blank" class="btn-primary">
+          <i class="fab fa-whatsapp"></i> Agende Seu Horário
+        </a>
+        <a href="#promo" class="btn-secondary">Promoções</a>
+      </div>
+      <div class="hero-scroll">
+        <span>Role para ver mais</span>
+        <div class="scroll-arrow">
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Promoções -->
+  <section id="promo" class="section section-promo">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Ofertas Especiais</span>
+        <h2 class="section-title">Promoções <span class="text-accent">Imperdíveis</span></h2>
+        <p class="section-desc">Cuide de você com condições especiais. Aproveite nossas ofertas limitadas!</p>
+      </div>
+      <div class="promo-grid">
+        <div class="promo-card glass destaque">
+          <div class="promo-badge">MAIS VENDIDO</div>
+          <div class="promo-icon"><i class="fas fa-hands"></i></div>
+          <h3>Massagem Modeladora</h3>
+          <p>Pacote com 5 sessões</p>
+          <div class="promo-price">
+            <span class="price-old">R$ 450</span>
+            <span class="price-new">R$ 320</span>
+          </div>
+          <div class="promo-economia">Economia de <strong>R$ 130</strong></div>
+          <a href="https://wa.me/5511999999999?text=Quero%20o%20pacote%20de%20Massagem%20Modeladora" target="_blank" class="promo-btn">
+            <i class="fab fa-whatsapp"></i> Garantir Oferta
+          </a>
+        </div>
+        <div class="promo-card glass">
+          <div class="promo-icon"><i class="fas fa-spa"></i></div>
+          <h3>Limpeza de Pele</h3>
+          <p>Combo facial completo</p>
+          <div class="promo-price">
+            <span class="price-old">R$ 180</span>
+            <span class="price-new">R$ 129</span>
+          </div>
+          <div class="promo-economia">Economia de <strong>R$ 51</strong></div>
+          <a href="https://wa.me/5511999999999?text=Quero%20o%20combo%20de%20Limpeza%20de%20Pele" target="_blank" class="promo-btn">
+            <i class="fab fa-whatsapp"></i> Garantir Oferta
+          </a>
+        </div>
+        <div class="promo-card glass">
+          <div class="promo-badge badge-green">LANÇAMENTO</div>
+          <div class="promo-icon"><i class="fas fa-feather"></i></div>
+          <h3>Massagem Relaxante</h3>
+          <p>Sessão avulsa premium</p>
+          <div class="promo-price">
+            <span class="price-old">R$ 150</span>
+            <span class="price-new">R$ 99</span>
+          </div>
+          <div class="promo-economia">Economia de <strong>R$ 51</strong></div>
+          <a href="https://wa.me/5511999999999?text=Quero%20a%20Massagem%20Relaxante" target="_blank" class="promo-btn">
+            <i class="fab fa-whatsapp"></i> Garantir Oferta
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section section-bg-services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Nossos Serviços</span>
+        <h2 class="section-title">Tratamentos <span class="text-accent">Especializados</span></h2>
+        <p class="section-desc">Tecnologia de ponta aliada ao toque humano para resultados que transformam</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card glass">
+          <div class="service-img">
+            <img src="pt1.jpeg" alt="Massagem Modeladora">
+            <div class="service-img-overlay">
+              <span class="service-icon"><i class="fas fa-hands"></i></span>
+            </div>
+          </div>
+          <div class="service-body">
+            <h3>Massagem Modeladora</h3>
+            <p>Técnica intensa que atua na redução de medidas e combate à celulite.</p>
+            <ul class="service-details">
+              <li><i class="far fa-clock"></i> 60 min</li>
+              <li><i class="fas fa-bullseye"></i> Redução de medidas</li>
+            </ul>
+          </div>
+        </div>
+        <div class="service-card glass">
+          <div class="service-img">
+            <img src="pt2.jpeg" alt="Limpeza de Pele">
+            <div class="service-img-overlay">
+              <span class="service-icon"><i class="fas fa-spa"></i></span>
+            </div>
+          </div>
+          <div class="service-body">
+            <h3>Limpeza de Pele</h3>
+            <p>Tratamento profundo que remove impurezas e revitaliza a pele.</p>
+            <ul class="service-details">
+              <li><i class="far fa-clock"></i> 60 min</li>
+              <li><i class="fas fa-bullseye"></i> Extração de cravos</li>
+            </ul>
+          </div>
+        </div>
+        <div class="service-card glass">
+          <div class="service-img">
+            <img src="pt3.jpeg" alt="Drenagem Linfática">
+            <div class="service-img-overlay">
+              <span class="service-icon"><i class="fas fa-water"></i></span>
+            </div>
+          </div>
+          <div class="service-body">
+            <h3>Drenagem Linfática</h3>
+            <p>Técnica suave que estimula o sistema linfático e elimina toxinas.</p>
+            <ul class="service-details">
+              <li><i class="far fa-clock"></i> 60 min</li>
+              <li><i class="fas fa-bullseye"></i> Redução de inchaço</li>
+            </ul>
+          </div>
+        </div>
+        <div class="service-card glass">
+          <div class="service-img">
+            <img src="pt3.jpeg" alt="Massagem Relaxante">
+            <div class="service-img-overlay">
+              <span class="service-icon"><i class="fas fa-feather"></i></span>
+            </div>
+          </div>
+          <div class="service-body">
+            <h3>Massagem Relaxante</h3>
+            <p>Movimentos suaves que aliviam o estresse e restauram as energias.</p>
+            <ul class="service-details">
+              <li><i class="far fa-clock"></i> 60 min</li>
+              <li><i class="fas fa-bullseye"></i> Alívio do estresse</li>
+            </ul>
+          </div>
+        </div>
+        <div class="service-card glass">
+          <div class="service-img">
+            <img src="pt4.jpeg" alt="Tratamentos Faciais">
+            <div class="service-img-overlay">
+              <span class="service-icon"><i class="fas fa-hand-sparkles"></i></span>
+            </div>
+          </div>
+          <div class="service-body">
+            <h3>Tratamentos Faciais</h3>
+            <p>Protocolos avançados para rejuvenescimento e hidratação da pele.</p>
+            <ul class="service-details">
+              <li><i class="far fa-clock"></i> 50 min</li>
+              <li><i class="fas fa-bullseye"></i> Rejuvenescimento</li>
+            </ul>
+          </div>
+        </div>
+        <div class="service-card glass">
+          <div class="service-img">
+            <img src="pt1.jpeg" alt="Massagem Pedras Quentes">
+            <div class="service-img-overlay">
+              <span class="service-icon"><i class="fas fa-fire"></i></span>
+            </div>
+          </div>
+          <div class="service-body">
+            <h3>Massagem Pedras Quentes</h3>
+            <p>Terapia com pedras vulcânicas para relaxamento profundo.</p>
+            <ul class="service-details">
+              <li><i class="far fa-clock"></i> 75 min</li>
+              <li><i class="fas fa-bullseye"></i> Relaxamento profundo</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Profissional -->
+  <section id="team" class="section section-bg-team">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Nossa Profissional</span>
+        <h2 class="section-title">Dra. <span class="text-accent">Paola Hoana Butke</span></h2>
+        <p class="section-desc">Profissional dedicada e apaixonada pela arte da estética e bem-estar</p>
+      </div>
+      <div class="team-single">
+        <div class="team-single-card glass">
+          <div class="team-single-img">
+            <img src="md4.jpeg" alt="Dra. Paola Hoana Butke">
+            <div class="team-img-border"></div>
+          </div>
+          <div class="team-single-info">
+            <div class="team-badge">
+              <i class="fas fa-certificate"></i> Especialista em Estética
+            </div>
+            <p>Com anos de experiência e formação especializada, a Dra. Paola Hoana Butke oferece tratamentos estéticos personalizados, combinando técnicas avançadas com um atendimento humanizado e acolhedor.</p>
+            <p>Sua missão é realçar a beleza natural de cada cliente, proporcionando bem-estar, autoestima e resultados que transformam.</p>
+            <div class="team-single-social">
+              <a href="https://instagram.com/performance.estetica" target="_blank" class="team-social-btn">
+                <i class="fab fa-instagram"></i> @performance.estetica
+              </a>
+              <a href="https://wa.me/5511999999999" target="_blank" class="team-social-btn btn-whatsapp-team">
+                <i class="fab fa-whatsapp"></i> Fale com a Dra. Paola
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Galeria</span>
+        <h2 class="section-title">Resultados que <span class="text-accent">Transformam</span></h2>
+        <p class="section-desc">Veja alguns dos nossos trabalhos e resultados reais</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item glass">
+          <img src="pt1.jpeg" alt="Massagem Modeladora">
+          <div class="gallery-overlay">
+            <div class="gallery-info">
+              <h4>Massagem Modeladora</h4>
+              <span>Redução de medidas</span>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item glass">
+          <img src="pt2.jpeg" alt="Limpeza de Pele">
+          <div class="gallery-overlay">
+            <div class="gallery-info">
+              <h4>Limpeza de Pele</h4>
+              <span>Revitalização facial</span>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item glass">
+          <img src="pt3.jpeg" alt="Drenagem Linfática">
+          <div class="gallery-overlay">
+            <div class="gallery-info">
+              <h4>Drenagem Linfática</h4>
+              <span>Redução de inchaço</span>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-item glass">
+          <img src="pt4.jpeg" alt="Tratamento Facial">
+          <div class="gallery-overlay">
+            <div class="gallery-info">
+              <h4>Tratamento Facial</h4>
+              <span>Rejuvenescimento</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Contato</span>
+        <h2 class="section-title">Agende seu <span class="text-accent">Horário</span></h2>
+        <p class="section-desc">Entre em contato conosco e descubra o tratamento ideal para você</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card glass">
+          <div class="contact-icon-wrap">
+            <i class="fab fa-whatsapp"></i>
+          </div>
+          <h3>WhatsApp</h3>
+          <p>Agende seu horário ou tire dúvidas</p>
+          <a href="https://wa.me/5511999999999" target="_blank" class="contact-btn btn-whatsapp">
+            <i class="fab fa-whatsapp"></i> (11) 99999-9999
+          </a>
+        </div>
+        <div class="contact-card glass">
+          <div class="contact-icon-wrap">
+            <i class="fab fa-instagram"></i>
+          </div>
+          <h3>Instagram</h3>
+          <p>Acompanhe resultados e dicas exclusivas</p>
+          <a href="https://instagram.com/performance.estetica" target="_blank" class="contact-btn btn-instagram">
+            <i class="fab fa-instagram"></i> @performance.estetica
+          </a>
+        </div>
+        <div class="contact-card glass">
+          <div class="contact-icon-wrap">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <h3>Localização</h3>
+          <p>Venha nos visitar pessoalmente</p>
+          <a href="https://maps.google.com/?q=Performance+Estetica+e+Bem-Estar" target="_blank" class="contact-btn btn-location">
+            <i class="fas fa-map-marker-alt"></i> Ver no Mapa
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <img src="logo2.jpeg" alt="Performance" class="footer-logo">
+          <div class="footer-brand-text">
+            <h4>Performance</h4>
+            <span>Estética & Bem-Estar</span>
+          </div>
+        </div>
+        <p class="footer-text">Transformando vidas através da estética e do autocuidado. Sua beleza é nossa paixão.</p>
+        <div class="footer-social">
+          <a href="https://wa.me/5511999999999" target="_blank" class="social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://instagram.com/performance.estetica" target="_blank" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://maps.google.com/?q=Performance+Estetica+e+Bem-Estar" target="_blank" class="social-link" aria-label="Localização"><i class="fas fa-map-marker-alt"></i></a>
+        </div>
+        <p class="footer-copy">&copy; 2026 Performance: Estética & Bem-Estar. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/5511999999999" target="_blank" class="whatsapp-float" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="whatsapp-tooltip">Fale conosco!</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>

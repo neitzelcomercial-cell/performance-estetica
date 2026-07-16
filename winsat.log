@@ -1,0 +1,373 @@
+160075906 (23520) - exe\logging.cpp:0841: --- START 2026\6\23 17:41:45 ---
+160075906 (23520) - exe\main.cpp:4044: WinSAT regisrty key missing - create the winsat key
+160075906 (23520) - exe\main.cpp:4364: WinSAT registry node is created or present
+160075906 (23520) - exe\main.cpp:4395: Command Line = "C:\WINDOWS\system32\winsat.exe" disk -wsswap
+160075906 (23520) - exe\main.cpp:4016: INFO: The axe results path environment variable is not set. Assuming we aren't running under AXE.
+160075906 (23520) - exe\main.cpp:4501: INFO: Winsat is not running in AXE mode.
+160075906 (23520) - exe\main.cpp:4530: Skipping writing the Initial values to the registry - Axe Mode
+160075921 (23520) - exe\main.cpp:2531: > DWM not running.
+160075921 (23520) - exe\main.cpp:2496: > EMD service will be restored on exit.
+160075921 (23520) - exe\main.cpp:0816: > WinSAT info: Version=V10.0 Build-26100.8521
+
+160075921 (23520) - exe\main.cpp:0948: > IsOfficial=TRUE  IsFormal=FALSE  IsMoobe=FALSE  RanOverTs=FALSE  RanOnbatteries=FALSE
+160075921 (23520) - exe\main.cpp:3826: > Power 'execution' request successfully set.
+160075921 (23520) - exe\main.cpp:1764: > Run Assessment disk -wsswap -drive C:
+160075921 (23520) - storage\diskprof.cpp:0161: CCC Support not disabled in registry
+160075921 (23520) - storage\diskprof.cpp:0677: DiskProfilerThreadProc Launched with priority 0
+160075921 (23520) - storage\diskprof.cpp:0690: ITERATION NUMBER 1
+160075921 (23520) - storage\diskprof.cpp:0698: Random seed is 1782247305
+160076234 (23520) - exe\main.cpp:3865: > Power request 'execution' successfully cleared.
+160076250 (23520) - exe\processresults.cpp:4767: > Wrote wsswap throughput, from the profiler, to the registry 3013632
+160076250 (23520) - exe\processresults.cpp:4777: > Wrote wsswap interference, from the profiler, to the registry 0
+160076250 (23520) - exe\processresults.cpp:4854: Skipping Registry Entry for random read disk score
+160076250 (23520) - exe\processwinsaterror.cpp:0340: Skipping writing the exit code, cant msg and why msg to registry
+160076250 (23520) - exe\main.cpp:2764: > Successfully reenabled EMD.
+160076250 (23520) - exe\main.cpp:5041: > exit value = 0.
+
+224338718 (20664) - exe\logging.cpp:0841: --- START 2026\6\28 13:09:16 ---
+224338718 (20664) - exe\main.cpp:4364: WinSAT registry node is created or present
+224338718 (20664) - exe\main.cpp:4395: Command Line = C:\WINDOWS\system32\winsat.exe formal -log -cancelevent abf2bfd6-ece9-4e78-a0ee-b975224703a5
+224338718 (20664) - exe\main.cpp:4016: INFO: The axe results path environment variable is not set. Assuming we aren't running under AXE.
+224338718 (20664) - exe\main.cpp:4501: INFO: Winsat is not running in AXE mode.
+224338718 (20664) - exe\processwinsaterror.cpp:0146: ERROR: tried to read resource strings, unknown exception occured
+224338718 (20664) - exe\main.cpp:4594: > IsFormal=TRUE  IsMoobe=FALSE.
+224338718 (20664) - exe\watchdog.cpp:0113: WatchDogThreadProc Launched with priority 0
+224338765 (20664) - exe\main.cpp:4693: Watch dog system enabled
+224338765 (20664) - exe\main.cpp:4708: Main watch dog timer set to 600.0 seconds
+224338812 (20664) - common\winsatutilities.cpp:1101: PNPID from DX9 call = PCI\VEN_1002&DEV_164C&SUBSYS_152B1025&REV_C1
+224338812 (20664) - common\winsatutilities.cpp:1167: Index [0]: PNPID = PCI\VEN_1002&DEV_164C&SUBSYS_152B1025&REV_C1
+224338812 (20664) - common\winsatutilities.cpp:1191: Matching device PnPID is PCI\VEN_1002&DEV_164C&SUBSYS_152B1025&REV_C1
+224338828 (20664) - common\winsatutilities.cpp:1167: Index [1]: PNPID = ROOT\BasicDisplay
+224338843 (20664) - exe\datastore.cpp:1027: No files found in the datastore location C:\WINDOWS\Performance\WinSAT\DataStore
+224338843 (20664) - exe\datastore.cpp:1142: DEBUG::We could not find a match for Assessment DATASTORE_DWM
+224338843 (20664) - exe\datastore.cpp:1027: No files found in the datastore location C:\WINDOWS\Performance\WinSAT\DataStore
+224338843 (20664) - exe\datastore.cpp:1142: DEBUG::We could not find a match for Assessment DATASTORE_GRAPHICS_3D
+224338843 (20664) - exe\datastore.cpp:1027: No files found in the datastore location C:\WINDOWS\Performance\WinSAT\DataStore
+224338843 (20664) - exe\datastore.cpp:1142: DEBUG::We could not find a match for Assessment DATASTORE_CPU
+224338843 (20664) - exe\datastore.cpp:1027: No files found in the datastore location C:\WINDOWS\Performance\WinSAT\DataStore
+224338843 (20664) - exe\datastore.cpp:1142: DEBUG::We could not find a match for Assessment DATASTORE_MEM
+224338843 (20664) - exe\datastore.cpp:1027: No files found in the datastore location C:\WINDOWS\Performance\WinSAT\DataStore
+224338843 (20664) - exe\datastore.cpp:1142: DEBUG::We could not find a match for Assessment DATASTORE_DISK
+224338843 (20664) - exe\main.cpp:2516: > DWM Running.
+224338843 (20664) - exe\main.cpp:2523: > turning off DWM.
+224338843 (20664) - exe\main.cpp:2496: > EMD service will be restored on exit.
+224339453 (20664) - exe\main.cpp:0816: > WinSAT info: Version=V10.0 Build-26100.8521
+
+224339453 (20664) - exe\main.cpp:0948: > IsOfficial=TRUE  IsFormal=TRUE  IsMoobe=FALSE  RanOverTs=FALSE  RanOnbatteries=FALSE
+224339453 (20664) - exe\main.cpp:3826: > Power 'execution' request successfully set.
+224339453 (20664) - exe\main.cpp:1764: > Run Assessment features 
+224339453 (20664) - common\winsatutilities.cpp:1101: PNPID from DX9 call = PCI\VEN_1002&DEV_164C&SUBSYS_152B1025&REV_C1
+224339453 (20664) - common\winsatutilities.cpp:1167: Index [0]: PNPID = PCI\VEN_1002&DEV_164C&SUBSYS_152B1025&REV_C1
+224339453 (20664) - common\winsatutilities.cpp:1191: Matching device PnPID is PCI\VEN_1002&DEV_164C&SUBSYS_152B1025&REV_C1
+224339453 (20664) - common\winsatutilities.cpp:1167: Index [1]: PNPID = ROOT\BasicDisplay
+224339468 (20664) - exe\main.cpp:1764: > Run Assessment dwm -aname DWM -time 10 -fbc 10 -disp off -normalw 1 -alphaw 2 -width 1280 -height 1024 -winwidth C(1144) -winheight C(915) -rendertotex 6 -rtdelta 3 -nolock
+224339468 (20664) - d3d\graphicsop.cpp:0193: GraphicsOp::AssessmentThread Launched with priority 0
+224350718 (20664) - exe\processresults.cpp:4125: > Wrote video memory bandwidth to the registry 14299100
+224350718 (20664) - exe\main.cpp:2039: > DWM Assessment results processing SUCCESS
+224350718 (20664) - exe\main.cpp:1764: > Run Assessment d3d -aname Batch -time 5 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 300 -batchcnt C(10) -objs C(26) -rendertotex 6 -rtdelta 3 -texpobj C(1)
+224350718 (20664) - d3d\graphicsop.cpp:0193: GraphicsOp::AssessmentThread Launched with priority 0
+224350734 (20664) - d3d\graphicsop.cpp:0294: D3D Assessment was called but intentionally not run. Instead, we provide predefined metrics and scores.
+224350812 (20664) - exe\main.cpp:1764: > Run Assessment d3d -aname Alpha -time 5 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 300 -batchcnt C(75) -objs C(26) -rendertotex 6 -rtdelta 3 -texpobj C(1)
+224350812 (20664) - d3d\graphicsop.cpp:0193: GraphicsOp::AssessmentThread Launched with priority 0
+224350828 (20664) - d3d\graphicsop.cpp:0294: D3D Assessment was called but intentionally not run. Instead, we provide predefined metrics and scores.
+224350906 (20664) - exe\main.cpp:1764: > Run Assessment d3d -aname Tex -time 5 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 500 -batchcnt C(125) -objs C(20) -noalpha -texshader -totaltex 10 -texpobj C(4) -rendertotex 6 -rtdelta 3
+224350906 (20664) - d3d\graphicsop.cpp:0193: GraphicsOp::AssessmentThread Launched with priority 0
+224350921 (20664) - d3d\graphicsop.cpp:0294: D3D Assessment was called but intentionally not run. Instead, we provide predefined metrics and scores.
+224351000 (20664) - exe\main.cpp:1764: > Run Assessment d3d -aname ALU -time 5 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 500 -batchcnt C(125) -objs C(20) -noalpha -alushader -totaltex 10 -texpobj C(1) -rendertotex 6 -rtdelta 3
+224351000 (20664) - d3d\graphicsop.cpp:0193: GraphicsOp::AssessmentThread Launched with priority 0
+224351015 (20664) - d3d\graphicsop.cpp:0294: D3D Assessment was called but intentionally not run. Instead, we provide predefined metrics and scores.
+224351093 (20664) - exe\main.cpp:1764: > Run Assessment d3d -dx10  -aname Batch -time 5 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 300 -batchcnt C(10) -objs C(26) -rendertotex 6 -rtdelta 3 -texpobj C(1)
+224351093 (20664) - d3d\graphicsop.cpp:0193: GraphicsOp::AssessmentThread Launched with priority 0
+224351093 (20664) - d3d\graphicsop.cpp:0215: Driver is not WDDM 1.1 or WDDM 1.2; aborting DX10 assessment.
+224351093 (20664) - exe\main.cpp:1764: > Run Assessment d3d -dx10  -aname Alpha -time 5 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 300 -batchcnt C(75) -objs C(26) -rendertotex 6 -rtdelta 3 -texpobj C(1)
+224351093 (20664) - d3d\graphicsop.cpp:0193: GraphicsOp::AssessmentThread Launched with priority 0
+224351109 (20664) - d3d\graphicsop.cpp:0215: Driver is not WDDM 1.1 or WDDM 1.2; aborting DX10 assessment.
+224351109 (20664) - exe\main.cpp:1764: > Run Assessment d3d -dx10  -aname Tex -time 5 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 500 -batchcnt C(125) -objs C(20) -noalpha -texshader -totaltex 10 -texpobj C(4) -rendertotex 6 -rtdelta 3
+224351109 (20664) - d3d\graphicsop.cpp:0193: GraphicsOp::AssessmentThread Launched with priority 0
+224351109 (20664) - d3d\graphicsop.cpp:0215: Driver is not WDDM 1.1 or WDDM 1.2; aborting DX10 assessment.
+224351109 (20664) - exe\main.cpp:1764: > Run Assessment d3d -dx10  -aname ALU -time 5 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 500 -batchcnt C(125) -objs C(20) -noalpha -alushader -totaltex 10 -texpobj C(1) -rendertotex 6 -rtdelta 3
+224351109 (20664) - d3d\graphicsop.cpp:0193: GraphicsOp::AssessmentThread Launched with priority 0
+224351109 (20664) - d3d\graphicsop.cpp:0215: Driver is not WDDM 1.1 or WDDM 1.2; aborting DX10 assessment.
+224351109 (20664) - exe\main.cpp:1764: > Run Assessment d3d -dx10  -aname GeomF4 -time 7 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 150;200;241 -batchcnt C(50);C(200);C(300) -objs C(12);C(26);C(45) -noalpha -geomf4shader -texpobj C(0) -rendertotex 6 -rtdelta 3 -tierframes 60 -tiertime 1
+224351109 (20664) - d3d\graphicsop.cpp:0193: GraphicsOp::AssessmentThread Launched with priority 0
+224351109 (20664) - d3d\graphicsop.cpp:0215: Driver is not WDDM 1.1 or WDDM 1.2; aborting DX10 assessment.
+224351109 (20664) - exe\main.cpp:1764: > Run Assessment d3d -dx10  -aname GeomV8 -time 7 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 75;100;120 -batchcnt C(25);C(100);C(150) -objs C(8);C(17);C(29) -noalpha -geomv8shader -texpobj C(0) -rendertotex 6 -rtdelta 3 -tierframes 60 -tiertime 1
+224351109 (20664) - d3d\graphicsop.cpp:0193: GraphicsOp::AssessmentThread Launched with priority 0
+224351109 (20664) - d3d\graphicsop.cpp:0215: Driver is not WDDM 1.1 or WDDM 1.2; aborting DX10 assessment.
+224351109 (20664) - exe\main.cpp:1764: > Run Assessment d3d -dx10  -aname CBuffer -time 5 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 75 -batchcnt C(25) -objs C(8) -rendertotex 6 -rtdelta 3 -texpobj C(1) -cbuffershader -cbufa 2 -cbuff 5 -cbufp 6
+224351109 (20664) - d3d\graphicsop.cpp:0193: GraphicsOp::AssessmentThread Launched with priority 0
+224351109 (20664) - d3d\graphicsop.cpp:0215: Driver is not WDDM 1.1 or WDDM 1.2; aborting DX10 assessment.
+224351109 (20664) - exe\main.cpp:1764: > Run Assessment moobego 
+224351109 (20664) - exe\main.cpp:1764: > Run Assessment cpu -encryption -up
+224351109 (20664) - exe\WinSATOp.h:1134: Adjusted the priority to 2
+224351125 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224351125 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224354187 (20664) - exe\main.cpp:1764: > Run Assessment cpu -compression -up
+224354187 (20664) - exe\WinSATOp.h:1134: Adjusted the priority to 2
+224354187 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224354203 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224364250 (20664) - exe\main.cpp:1764: > Run Assessment cpu -encryption2 -up
+224364250 (20664) - exe\WinSATOp.h:1134: Adjusted the priority to 2
+224364250 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224364265 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224367343 (20664) - exe\main.cpp:1764: > Run Assessment cpu -compression2 -up
+224367343 (20664) - exe\WinSATOp.h:1134: Adjusted the priority to 2
+224367343 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224367343 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224377375 (20664) - exe\main.cpp:1764: > Run Assessment cpu -encryption
+224377390 (20664) - exe\WinSATOp.h:1134: Adjusted the priority to 2
+224377390 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224377390 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224377390 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224377390 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224377390 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224377390 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224377390 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224377390 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224377390 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224377390 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224377390 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224377390 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224377390 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224377390 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224377390 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224377390 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224377390 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224377390 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224377390 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224377390 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224377390 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224377390 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224377390 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224377390 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224377390 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224377390 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224377406 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224377406 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224377406 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224377406 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224377406 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224377406 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224387640 (20664) - exe\main.cpp:1764: > Run Assessment cpu -compression
+224387640 (20664) - exe\WinSATOp.h:1134: Adjusted the priority to 2
+224387640 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224387640 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224387640 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224387640 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224387640 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224387640 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224387640 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224387640 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224387640 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224387640 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224387640 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224387640 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224387640 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224387640 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224387640 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224387640 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224387640 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224387640 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224387640 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224387640 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224387640 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224387640 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224387640 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224387640 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224387640 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224387640 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224387640 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224387640 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224387640 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224387656 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224387656 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224387656 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224397828 (20664) - exe\main.cpp:1764: > Run Assessment cpu -encryption2
+224397828 (20664) - exe\WinSATOp.h:1134: Adjusted the priority to 2
+224397828 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224397828 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224397828 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224397828 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224397828 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224397828 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224397828 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224397843 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224397828 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224397828 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224397828 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224397828 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224397828 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224397828 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224397828 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224397828 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224397828 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224397843 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224397843 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224397843 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224397843 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224397843 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224397843 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224397843 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224397843 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224397843 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224397843 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224397843 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224397843 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224397843 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224397843 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224397843 (20664) - cpu\encryption.cpp:0164: CPU Encryption thread priority changed to 15
+224407984 (20664) - exe\main.cpp:1764: > Run Assessment cpu -compression2
+224407984 (20664) - exe\WinSATOp.h:1134: Adjusted the priority to 2
+224407984 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224407984 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224407984 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224407984 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224407984 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224407984 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224407984 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224407984 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224407984 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224407984 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224407984 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224407984 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224407984 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224407984 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224407984 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224407984 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224407984 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224407984 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224407984 (20664) - exe\WinSATOp.h:0820:  CPU ThreadEntryPoint Launched with priority 0
+224408000 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224408000 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224408000 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224408000 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224408000 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224408000 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224408000 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224408000 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224408000 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224408000 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224408000 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224408000 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224408000 (20664) - cpu\compression.cpp:0180: CPU Compression thread priority changed to 15
+224418203 (20664) - exe\main.cpp:1764: > Run Assessment mem 
+224418203 (20664) - memory\memat.cpp:1920: Adjusted the priority of Memory Assessment thread to 2
+224418203 (20664) - memory\memat.cpp:1231: DoOperationThreadEntryPoint Launched with priority 0
+224418203 (20664) - memory\memat.cpp:1231: DoOperationThreadEntryPoint Launched with priority 0
+224418203 (20664) - memory\memat.cpp:0610: Adjusted the priority of the Memory copy thread to 15
+224418203 (20664) - memory\memat.cpp:1231: DoOperationThreadEntryPoint Launched with priority 0
+224418203 (20664) - memory\memat.cpp:1231: DoOperationThreadEntryPoint Launched with priority 0
+224418203 (20664) - memory\memat.cpp:1231: DoOperationThreadEntryPoint Launched with priority 0
+224418203 (20664) - memory\memat.cpp:0610: Adjusted the priority of the Memory copy thread to 15
+224418203 (20664) - memory\memat.cpp:1231: DoOperationThreadEntryPoint Launched with priority 0
+224418203 (20664) - memory\memat.cpp:1231: DoOperationThreadEntryPoint Launched with priority 0
+224418203 (20664) - memory\memat.cpp:0610: Adjusted the priority of the Memory copy thread to 15
+224418203 (20664) - memory\memat.cpp:0610: Adjusted the priority of the Memory copy thread to 15
+224418203 (20664) - memory\memat.cpp:0610: Adjusted the priority of the Memory copy thread to 15
+224418203 (20664) - memory\memat.cpp:0610: Adjusted the priority of the Memory copy thread to 15
+224418203 (20664) - memory\memat.cpp:0610: Adjusted the priority of the Memory copy thread to 15
+224418203 (20664) - memory\memat.cpp:1231: DoOperationThreadEntryPoint Launched with priority 0
+224418203 (20664) - memory\memat.cpp:0610: Adjusted the priority of the Memory copy thread to 15
+224423437 (20664) - exe\main.cpp:1764: > Run Assessment disk -seq -read -n 0
+224423453 (20664) - storage\diskprof.cpp:0161: CCC Support not disabled in registry
+224423453 (20664) - storage\diskprof.cpp:0677: DiskProfilerThreadProc Launched with priority 0
+224423453 (20664) - storage\diskprof.cpp:0690: ITERATION NUMBER 1
+224423453 (20664) - storage\diskprof.cpp:0698: Random seed is 1782663040
+224423562 (20664) - storage\diskprof.cpp:3830: No Registry or pbip, using the default value of permitted BG Interference
+224423562 (20664) - storage\diskprof.cpp:3833: Permitted background Interference in percentage = 100
+224423562 (20664) - storage\diskprof.cpp:3891: info: WinSAT IOs = 256, Allowed interference = 256 Actual Interference = 1 
+224423562 (20664) - storage\diskprof.cpp:3922: CCC - Normalized the high IO values - SEQ Heuristic
+224423656 (20664) - storage\diskprof.cpp:3833: Permitted background Interference in percentage = 100
+224423656 (20664) - storage\diskprof.cpp:3891: info: WinSAT IOs = 256, Allowed interference = 256 Actual Interference = 1 
+224423656 (20664) - storage\diskprof.cpp:3922: CCC - Normalized the high IO values - SEQ Heuristic
+224423750 (20664) - storage\diskprof.cpp:3833: Permitted background Interference in percentage = 100
+224423750 (20664) - storage\diskprof.cpp:3891: info: WinSAT IOs = 256, Allowed interference = 256 Actual Interference = 1 
+224423750 (20664) - storage\diskprof.cpp:3922: CCC - Normalized the high IO values - SEQ Heuristic
+224423843 (20664) - storage\diskprof.cpp:3833: Permitted background Interference in percentage = 100
+224423843 (20664) - storage\diskprof.cpp:3891: info: WinSAT IOs = 256, Allowed interference = 256 Actual Interference = 1 
+224423843 (20664) - storage\diskprof.cpp:3922: CCC - Normalized the high IO values - SEQ Heuristic
+224423937 (20664) - storage\diskprof.cpp:3833: Permitted background Interference in percentage = 100
+224423937 (20664) - storage\diskprof.cpp:3891: info: WinSAT IOs = 256, Allowed interference = 256 Actual Interference = 1 
+224423937 (20664) - storage\diskprof.cpp:3922: CCC - Normalized the high IO values - SEQ Heuristic
+224424031 (20664) - storage\diskprof.cpp:3833: Permitted background Interference in percentage = 100
+224424031 (20664) - storage\diskprof.cpp:3891: info: WinSAT IOs = 256, Allowed interference = 256 Actual Interference = 1 
+224424031 (20664) - storage\diskprof.cpp:3922: CCC - Normalized the high IO values - SEQ Heuristic
+224424125 (20664) - storage\diskprof.cpp:3833: Permitted background Interference in percentage = 100
+224424125 (20664) - storage\diskprof.cpp:3891: info: WinSAT IOs = 256, Allowed interference = 256 Actual Interference = 1 
+224424125 (20664) - storage\diskprof.cpp:3922: CCC - Normalized the high IO values - SEQ Heuristic
+224424234 (20664) - storage\diskprof.cpp:3833: Permitted background Interference in percentage = 100
+224424234 (20664) - storage\diskprof.cpp:3891: info: WinSAT IOs = 256, Allowed interference = 256 Actual Interference = 1 
+224424234 (20664) - storage\diskprof.cpp:3922: CCC - Normalized the high IO values - SEQ Heuristic
+224424312 (20664) - storage\diskprof.cpp:3833: Permitted background Interference in percentage = 100
+224424312 (20664) - storage\diskprof.cpp:3891: info: WinSAT IOs = 256, Allowed interference = 256 Actual Interference = 1 
+224424312 (20664) - storage\diskprof.cpp:3922: CCC - Normalized the high IO values - SEQ Heuristic
+224424421 (20664) - storage\diskprof.cpp:3833: Permitted background Interference in percentage = 100
+224424421 (20664) - storage\diskprof.cpp:3891: info: WinSAT IOs = 256, Allowed interference = 256 Actual Interference = 1 
+224424421 (20664) - storage\diskprof.cpp:3922: CCC - Normalized the high IO values - SEQ Heuristic
+224424515 (20664) - storage\diskprof.cpp:3833: Permitted background Interference in percentage = 100
+224424515 (20664) - storage\diskprof.cpp:3891: info: WinSAT IOs = 256, Allowed interference = 256 Actual Interference = 1 
+224424515 (20664) - storage\diskprof.cpp:3922: CCC - Normalized the high IO values - SEQ Heuristic
+224424609 (20664) - storage\diskprof.cpp:3833: Permitted background Interference in percentage = 100
+224424609 (20664) - storage\diskprof.cpp:3891: info: WinSAT IOs = 256, Allowed interference = 256 Actual Interference = 1 
+224424609 (20664) - storage\diskprof.cpp:3922: CCC - Normalized the high IO values - SEQ Heuristic
+224424687 (20664) - storage\diskprof.cpp:3833: Permitted background Interference in percentage = 100
+224424687 (20664) - storage\diskprof.cpp:3891: info: WinSAT IOs = 256, Allowed interference = 256 Actual Interference = 1 
+224424687 (20664) - storage\diskprof.cpp:3922: CCC - Normalized the high IO values - SEQ Heuristic
+224424781 (20664) - storage\diskprof.cpp:3833: Permitted background Interference in percentage = 100
+224424781 (20664) - storage\diskprof.cpp:3891: info: WinSAT IOs = 256, Allowed interference = 256 Actual Interference = 1 
+224424781 (20664) - storage\diskprof.cpp:3922: CCC - Normalized the high IO values - SEQ Heuristic
+224424859 (20664) - storage\diskprof.cpp:3833: Permitted background Interference in percentage = 100
+224424859 (20664) - storage\diskprof.cpp:3891: info: WinSAT IOs = 256, Allowed interference = 256 Actual Interference = 1 
+224424875 (20664) - storage\diskprof.cpp:3922: CCC - Normalized the high IO values - SEQ Heuristic
+224424968 (20664) - storage\diskprof.cpp:3833: Permitted background Interference in percentage = 100
+224424968 (20664) - storage\diskprof.cpp:3891: info: WinSAT IOs = 256, Allowed interference = 256 Actual Interference = 1 
+224424968 (20664) - storage\diskprof.cpp:3922: CCC - Normalized the high IO values - SEQ Heuristic
+224424968 (20664) - exe\main.cpp:1764: > Run Assessment disk -ran -read -n 0
+224424968 (20664) - storage\diskprof.cpp:0161: CCC Support not disabled in registry
+224424968 (20664) - storage\diskprof.cpp:0677: DiskProfilerThreadProc Launched with priority 0
+224424968 (20664) - storage\diskprof.cpp:0690: ITERATION NUMBER 1
+224424968 (20664) - storage\diskprof.cpp:0698: Random seed is 1782663042
+224425140 (20664) - storage\diskprof.cpp:3830: No Registry or pbip, using the default value of permitted BG Interference
+224425140 (20664) - storage\diskprof.cpp:3833: Permitted background Interference in percentage = 100
+224425140 (20664) - storage\diskprof.cpp:3891: info: WinSAT IOs = 1000, Allowed interference = 1000 Actual Interference = 1 
+224425140 (20664) - storage\diskprof.cpp:3898: CCC - Skipping the heuristic for random assessment
+224425140 (20664) - exe\main.cpp:3865: > Power request 'execution' successfully cleared.
+224425140 (20664) - exe\processresults.cpp:4125: > Wrote video memory bandwidth to the registry 14299100
+224425140 (20664) - exe\processresults.cpp:4849: > Wrote random read disk score, from the profiler, to the registry 252282
+224425140 (20664) - exe\processresults.cpp:0985: > Wrote cpu expression compression score to the registry 252
+224425156 (20664) - exe\processresults.cpp:1030: Total physical mem available to the OS : 15,3 GB (16.486.035.456 bytes)
+224425156 (20664) - exe\processresults.cpp:1131: > Wrote memory throughput to the registry 26722
+224425156 (20664) - exe\processresults.cpp:1323: > Wrote random read disk score (throughput) to the registry 252282
+224425156 (20664) - exe\processresults.cpp:1349: > Wrote sequential read disk score (throughput) to the registry 2586088
+224425156 (20664) - exe\processresults.cpp:1739: > Wrote CRS score to the registry 80
+224425156 (20664) - exe\processresults.cpp:1760: > Wrote memory score to the registry 93
+224425156 (20664) - exe\processresults.cpp:1779: > Wrote cpu score to the registry 93
+224425156 (20664) - exe\processresults.cpp:1800: > Wrote DWM score to the registry 80
+224425156 (20664) - exe\processresults.cpp:1820: > Wrote D3D score to the registry 99
+224425156 (20664) - exe\processresults.cpp:1840: > Wrote disk score to the registry 85
+224425171 (20664) - exe\main.cpp:0816: > WinSAT info: Version=V10.0 Build-26100.8521
+
+224425171 (20664) - exe\main.cpp:0948: > IsOfficial=TRUE  IsFormal=TRUE  IsMoobe=FALSE  RanOverTs=FALSE  RanOnbatteries=FALSE
+224425171 (20664) - common\winsatutilities.cpp:1101: PNPID from DX9 call = PCI\VEN_1002&DEV_164C&SUBSYS_152B1025&REV_C1
+224425171 (20664) - common\winsatutilities.cpp:1167: Index [0]: PNPID = PCI\VEN_1002&DEV_164C&SUBSYS_152B1025&REV_C1
+224425171 (20664) - common\winsatutilities.cpp:1191: Matching device PnPID is PCI\VEN_1002&DEV_164C&SUBSYS_152B1025&REV_C1
+224425171 (20664) - common\winsatutilities.cpp:1167: Index [1]: PNPID = ROOT\BasicDisplay
+224425203 (20664) - exe\processresults.cpp:4125: > Wrote video memory bandwidth to the registry 14299100
+224425203 (20664) - exe\processresults.cpp:4849: > Wrote random read disk score, from the profiler, to the registry 252282
+224425203 (20664) - exe\processresults.cpp:0985: > Wrote cpu expression compression score to the registry 252
+224425218 (20664) - exe\processresults.cpp:1030: Total physical mem available to the OS : 15,3 GB (16.486.035.456 bytes)
+224425218 (20664) - exe\processresults.cpp:1131: > Wrote memory throughput to the registry 26722
+224425218 (20664) - exe\processresults.cpp:1323: > Wrote random read disk score (throughput) to the registry 252282
+224425218 (20664) - exe\processresults.cpp:1349: > Wrote sequential read disk score (throughput) to the registry 2586088
+224425218 (20664) - exe\processresults.cpp:1739: > Wrote CRS score to the registry 80
+224425218 (20664) - exe\processresults.cpp:1760: > Wrote memory score to the registry 93
+224425218 (20664) - exe\processresults.cpp:1779: > Wrote cpu score to the registry 93
+224425218 (20664) - exe\processresults.cpp:1800: > Wrote DWM score to the registry 80
+224425218 (20664) - exe\processresults.cpp:1820: > Wrote D3D score to the registry 99
+224425218 (20664) - exe\processresults.cpp:1840: > Wrote disk score to the registry 85
+224425234 (20664) - common\winsatutilities.cpp:1443: Enabling the WinSAT Task
+224425234 (20664) - exe\processwinsaterror.cpp:0319: Writing exit code, cant msg and why msg to registry 
+224425234 (20664) - exe\main.cpp:2764: > Successfully reenabled EMD.
+224425234 (20664) - exe\main.cpp:2790: > Composition restarted
+224425234 (20664) - exe\watchdog.cpp:0339: Watch dog system shutdown
+224425234 (20664) - exe\main.cpp:5041: > exit value = 0.
